@@ -1,76 +1,92 @@
-📖 Overview
 
-Exploratory Data Analysis (EDA) on two datasets: Titanic and Tips, using Python.
+
+## 📖 Overview
+
+Exploratory Data Analysis (EDA) on two datasets — **Titanic** and **Tips** — using Python.
 This project focuses on understanding data distributions, patterns, correlations, and visual insights using common EDA workflows.
 
-📂 Files
+---
+
+## 📂 Files
+
+```
 ├── eda-practice.ipynb
 ├── README.md
 └── requirements.txt
+```
 
+---
 
-📊 Datasets
+## 📊 Datasets
 
-1️⃣ Titanic Dataset
+**1️⃣ Titanic Dataset**
 
-Survival dataset (Age, Fare, Sex, Pclass, etc.)
+* Survival dataset (Age, Fare, Sex, Pclass, etc.)
+* Focus: distributions, missing values, survival patterns
 
-Focus: distributions, missing values, survival patterns
+**2️⃣ Tips Dataset**
 
-2️⃣ Tips Dataset
+* Restaurant tipping dataset
+* Focus: correlations, categorical patterns, spending behavior
 
-Restaurant tipping dataset
+Datasets sourced via **Seaborn**.
 
-Focus: correlations, categorical patterns, spending behavior
+---
 
-Datasets sourced via Seaborn.
+## 🧰 Tools Used
 
-🧰 Tools Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-Python
+---
 
-Pandas
+## 📈 Analysis Highlights
 
-NumPy
+* Summary statistics
+* Missing value inspection
+* Distribution analysis
+* Correlation heatmaps
+* Outlier checks
+* Visual comparisons
 
-Matplotlib
+---
 
-Seaborn
+## 📍 Key Insights
 
-Jupyter Notebook
+**Titanic:**
 
-📈 Analysis Highlights
+* Survival varies clearly by gender + class
+* Age + fare show skewness
+* Missing values concentrated in Age/Cabin
 
-Summary statistics
+**Tips:**
 
-Missing value inspection
+* Strong link between total bill + tip
+* Tipping behavior varies by sex/smoking/time
+* Weekend bills are higher
 
-Distribution analysis
+---
 
-Correlation heatmaps
+## 🚀 Next Steps
 
-Outlier checks
+* Feature engineering
+* Model building (Titanic classification / Tips regression)
+* Dashboarding
 
-Visual comparisons
+---
 
-📍 Key Insights
+## 🔧 How to Run
 
-Titanic:
-
-Survival varies clearly by gender + class
-
-Age + fare show skewness
-
-Missing values concentrated in Age/Cabin
-
-Tips:
-
-Strong link between total bill + tip
-
-Tipping behavior varies by sex/smoking/time
-
-Weekend bills are higher
-
-🔧 How to Run
+```bash
 pip install -r requirements.txt
 jupyter notebook eda-practice.ipynb
+```
+
+
+
+
+Just ask 😎🔥
